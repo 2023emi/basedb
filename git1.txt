@@ -1,0 +1,196 @@
+bk 
+yt
+
+https://y2down.cc/en/youtube-playlist.html 
+quality
+
+\https://en.savefrom.net/1-youtube-video-downloader-533nN/
+speed
+
+
+
+cSoclket
+https://www.youtube.com/watch?v=_lQ-3S4fJ0U&list=PLPyaR5G9aNDvs6TtdpLcVO43_jvxp4emI
+https://www.youtube.com/watch?v=3FvHW3uzZA0
+#
+https://www.youtube.com/watch?v=e0LuIrOfBPw&list=PLu_a4hjJo1mTiX7v_Uj2TixvjXsNsY7SZ
+
+
+notesdb aim
+
+#pre
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/2023emi/jsondb.git
+git push -u origin main",
+
+
+git workflow
+clone and check log and commit 
+git clone  !@github
+git log oneline 
+
+git log --oneline
+
+git checkout <commit-SHA-1>
+
+
+
+
+
++Vim
+
+
+vim your_file.json
+
+    Use Visual Block Mode:
+
+    a. Press Ctrl + V to enter visual block mode.
+    b. Use the j keystroke to select the lines you want to modify.
+
+    Add ",\n" + to the end of each selected line:
+
+    a. Press $ to move the cursor to the end of the selected block.
+    b. Type Shift + A (capital "A"), then type ",\\n\" + and then press Esc. This will append ",\n" + to the end of each selected line.
+
+    Save the changes and exit Vim:
+
+Press Esc to ensure you're in normal mode, then type :wq and press Enter.
+
+Using Shift + A after selecting the block allows you to append text to the end of each line in the selected block.
+
+To collapse multiple lines into a single line in Vim, you can use the "join" command. Here's how you can do it:
+
++Tmux
+
+tmux new -s test
+
+##Tags
+------
+
+##########tmux(multiple task  simultaneously in sessions attachbl  )
+generalTheory
+
+
+##########Custom TagsSchnema  - standaklone tags , indepthneeded()########
+
+#########Tags########
+panes 
+windows 
+sessions()
+
+#########softwareSpecefic########
+prefix key 
+
+#########modes########
+command mode using prefix + :
+
+
+########################
+ 
+########abbreviations########
+-------------
+prefix//p = ctrl+b
+window//w
+
+
+
+
+#########Commands########
+#Sessions
+
+
+#detach
+exit or detach = p+d
+choose client to detach  = p+D
+kill session = p+: kill-session
+
+#attach
+tmux list-sessions
+tmux attach-session -t session_name_or_id
+	
+new session = p+:new -s sessionname
+list sessions = p+s
+rename session = p+$
+toggle session prev next ie(ctrl+tab) = p+ (//)
+
+
+#Windows
+
+rename  w = p+, nname
+new  w = p+c
+switch w next/previous = p+n//p+p
+toggle window ie(ctrl+tab)=p+l
+
+
+
+
+#Panes
+resize = p+< or > or ud
+split = p+% // p+" (vertical/horizontal)
+switch to next pane = p+o
+toggle ie(ctrl+tab) = p+;
+
+
+
+
++gitPro
+to ignore/whitelist file !  will add them to staging 
+to exclude just name the folder files etc 
+dir/
+file.txt
+etc
+-------------------
+#save a snapshot of code
+git add .
+git commit -m "msg"
+OR = git commit -am "msg" #all files in  pwd
+OR add custom alias = git config --global alias.whatever "command eg "commit -am"" || git ac "msg"
+#Update latest commit in case of changing commit msg
+git commit --amend -m "new msg "
+
+
+
+#rule save repo to remote after multiple commits in local
+
+###vim to long commit 
+
+#backtocommit 
+#vs code .
+
+#rename branch 
+git branch
+
+git branch -M newname 
+git status
+
+git log --graph --oneline --decorat
+
+git log -S regex/string  & p to open vim 
+git reset --hard HEAD~1 
+
+
+#backto
+git fetch origin 
+git reset --hard origin/master
+
+#adding or staging 
+git init 
+
+git checkout -b namenew ||git reset 
+
+git commit -am "msg"
+git push orign branchname |git checkout |
+
+
+Clone specefic branch
+
+
++ty58
+
+
+#maya
+ssh -T git@github.com correct 

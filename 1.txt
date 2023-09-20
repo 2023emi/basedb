@@ -1,0 +1,491 @@
+bk 
+yt
+
+https://y2down.cc/en/youtube-playlist.html 
+quality
+
+\https://en.savefrom.net/1-youtube-video-downloader-533nN/
+speed
+
+
+
+cSoclket
+https://www.youtube.com/watch?v=_lQ-3S4fJ0U&list=PLPyaR5G9aNDvs6TtdpLcVO43_jvxp4emI
+https://www.youtube.com/watch?v=3FvHW3uzZA0
+#
+https://www.youtube.com/watch?v=e0LuIrOfBPw&list=PLu_a4hjJo1mTiX7v_Uj2TixvjXsNsY7SZ
+
+
+notesdb aim
+
+#pre
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/2023emi/jsondb.git
+git push -u origin main",
+
+
+git workflow
+clone and check log and commit 
+git clone  !@github
+git log oneline 
+
+git log --oneline
+
+git checkout <commit-SHA-1>
+
+
+
+
+
++Vim
+
+
+vim your_file.json
+
+    Use Visual Block Mode:
+
+    a. Press Ctrl + V to enter visual block mode.
+    b. Use the j keystroke to select the lines you want to modify.
+
+    Add ",\n" + to the end of each selected line:
+
+    a. Press $ to move the cursor to the end of the selected block.
+    b. Type Shift + A (capital "A"), then type ",\\n\" + and then press Esc. This will append ",\n" + to the end of each selected line.
+
+    Save the changes and exit Vim:
+
+Press Esc to ensure you're in normal mode, then type :wq and press Enter.
+
+Using Shift + A after selecting the block allows you to append text to the end of each line in the selected block.
+
+To collapse multiple lines into a single line in Vim, you can use the "join" command. Here's how you can do it:
+
++Tmux
+
+tmux new -s test
+
+##Tags
+------
+
+##########tmux(multiple task  simultaneously in sessions attachbl  )
+generalTheory
+
+
+##########Custom TagsSchnema  - standaklone tags , indepthneeded()########
+
+#########Tags########
+panes 
+windows 
+sessions()
+
+#########softwareSpecefic########
+prefix key 
+
+#########modes########
+command mode using prefix + :
+
+
+########################
+ 
+########abbreviations########
+-------------
+prefix//p = ctrl+b
+window//w
+
+
+
+
+#########Commands########
+#Sessions
+
+
+#detach
+exit or detach = p+d
+choose client to detach  = p+D
+kill session = p+: kill-session
+
+#attach
+tmux list-sessions
+tmux attach-session -t session_name_or_id
+	
+new session = p+:new -s sessionname
+list sessions = p+s
+rename session = p+$
+toggle session prev next ie(ctrl+tab) = p+ (//)
+
+
+#Windows
+
+rename  w = p+, nname
+new  w = p+c
+switch w next/previous = p+n//p+p
+toggle window ie(ctrl+tab)=p+l
+
+
+
+
+#Panes
+resize = p+< or > or ud
+split = p+% // p+" (vertical/horizontal)
+switch to next pane = p+o
+toggle ie(ctrl+tab) = p+;
+
+
+
+
++gitPro
+to ignore/whitelist file !  will add them to staging 
+to exclude just name the folder files etc 
+dir/
+file.txt
+etc
+-------------------
+#save a snapshot of code
+git add .
+git commit -m "msg"
+OR = git commit -am "msg" #all files in  pwd
+OR add custom alias = git config --global alias.whatever "command eg "commit -am"" || git ac "msg"
+#Update latest commit in case of changing commit msg
+git commit --amend -m "new msg "
+
+
+
+#rule save repo to remote after multiple commits in local
+
+###vim to long commit 
+
+#backtocommit 
+#vs code .
+
+#rename branch 
+git branch
+
+git branch -M newname 
+git status
+
+git log --graph --oneline --decorat
+
+git log -S regex/string  & p to open vim 
+git reset --hard HEAD~1 
+
+
+#backto
+git fetch origin 
+git reset --hard origin/master
+
+#adding or staging 
+git init 
+
+git checkout -b namenew ||git reset 
+
+git commit -am "msg"
+git push orign branchname |git checkout |
+
+
+Clone specefic branch
+
+
++ty58
+
+
+#maya
+ssh -T git@github.com correct 
+###################################3
+
+
+
+
+vim 
+ty58
+git
+git grep 
+git search
+git regex 
+git notes schema 
+ssh for tmux etc 
+scp for tmux etc 
+
+linux bash basic  notes
+-----------
+DEV notes main cb@res 
+EEEEEEEEEEEEE
+
+py + c prjs
+jsmpeg-vnc linux_+ window 
+with window macro 
+
+pytorch prj  
+adb scr gen
+
+course site pure html 
+payment gateway 
+vidoe res etc
+
+bug res.s
+jwt+ appl
+
+
+public private for db
+
+chat input full code and generate prj essense 
+
+g.s@aoi
+
+apprForinput 
+to jsondb
+tags:
+1.tags
+2.memorybased/storyEtc
+
+construct the search in such way preencryption func. 
+that it dont depent on memory based search
+rather use tags.txt file to use tags which will be universal for that search niche .
+
+
+------------------
+
+
+
+
+sysstem  + bkres
+eg= html vanilla js css site appr= system == figma to design layout in logical way proway need a tool and tittle learning curve use vids@yt for pptetc for animation etc then use of jsondb res bk tool to ue that  impknowhow and use aoi to input generted code from figma as imput and code from scarch in update resjsondb
+
+good res= human  mindclarityof
+tyopic by intense impl of over huge time @5min react vids js@fireshipetc
+
+use of notesdb not aoi @eg typign effect need code snippet generted for tatht specefic effect 
+
+
+0p0
+0d0
+0x0
+0c0
+
+
+
+
+@preciseSearchbale@linux 
+env setup
+
+Node nvm 
+python miniconda
+######################Jsondb###############
+@datacamp
+pythonall
+
+pytorch 
+tensorflow
+misc 
+image uisng pil 
+using sciketlearn
+figma 
+
+######prj 
+react@figma 
+served using 
+dashboard Flask server model captcha
+backend  process @arubacloud /genesiscloud 
+#########################################################
+
+Auth
+
+github
+https://github.com/login
+*******1 01_emmi
+*********1 2023emi
+
+bitubcket
+https://id.atlassian.com/login?application=bitbucket&continue=https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%252F%26redirectCount%3D1
+********!
+
+
+proton
+https://account.proton.me/login
+01_emmi@proton.me 
+/cycle 
+2023emi@proton.me
+/horse
+
+
+
+
+public private for db
+
+chat input full code and generate prj essense 
+
+g.s@aoi
+
+apprForinput 
+to jsondb
+tags:
+1.tags
+2.memorybased/storyEtc
+
+construct the search in such way preencryption func. 
+that it dont depent on memory based search
+rather use tags.txt file to use tags which will be universal for that search niche .
+
+
+------------------
+dev appr first copy the file to prevent lost  ..
+three files script data index
+
+
+######33
+env setup npm  miniconda linux partition 
+reverse tether for dbfirst entry
+
+
+
+
+sysstem  + bkres
+eg= html vanilla js css site appr= system == figma to design layout in logical way proway need a tool and tittle learning curve use vids@yt for pptetc for animation etc then use of jsondb res bk tool to ue that  impknowhow and use aoi to input generted code from figma as imput and code from scarch in update resjsondb
+
+good res= human  mindclarityof
+tyopic by intense impl of over huge time @5min react vids js@fireshipetc
+
+use of notesdb not aoi @eg typign effect need code snippet generted for tatht specefic effect  as having full code snippet is my system part 
+to find correlation in code snippet each token 
+
+
+
+schema for pst*r & conda eg
+
+pst*r
+name = ?
+#tags||referencefile.txt 
+complexion=[1_black_/2_brown_/3_godlen_/4_white_/5/6_pale_/7_paleasfuck_]
+legs=[0_short_/1_tall_/]
+upperbody=[]
+
+
+search quer* 
+legs[0] complexion[1]
+################
+
+
+######
+features
+typing effect + image @prevflask apps 
+understand js algo for filter regex etc
+
+
+exec bash to miniconda 
+and node installed 
+
+1min rule for dev save exti
+
+
+tags.txt
+script.js
+fetch func
+Fuse.js[]
+fuzzysearch key based
+handleSearch func
+
+
+
+
+dividing  full code to [dividefullcodeeg]@aoi
+and generate que postaoiinput
+
+q1refA div element with the id "searchResults" is initially empty but will be used to display search results.
+q1 A div element with the id "searchResults" is initially empty but will be used to display search results. how will it display data if there is no data before based on your knowledge of rendering of html in browser of various tags if there is image link in the json will it render the image given above prj code data.json index.html and js file i provided 
+
+q2If a search term exists, it uses the Fuse.js instance to perform a search and calls displaySearchResults to render the results.
+q2 If a search term exists, it uses the Fuse.js instance to perform a search and calls displaySearchResults to render the results. what do you mean if it exist do you mean in data.json and what is fuzzy search .
+
+q3For each result, it creates a new "card" div with Bootstrap classes.
+q3 can div card render image inside it if there is link img in json data like in content .
+ ##########
+NotesBaseapprTemplate_basedb
+
+
+#new technolgy use which functions 
+like in css best to use sizing pixel val or container relation image sizing based on probem ask aoi 
+
+corrlatin bw code lines 
+
+
+schema for pst*r & conda eg
+
+pst*r
+name = ?
+#tags||referencefile.txt 
+complexion=[1_black_/2_brown_/3_godlen_/4_white_/5/6_pale_/7_paleasfuck_]
+legs=[0_short_/1_tall_/]
+upperbody=[]
+
+
+search quer* 
+legs[0] complexion[1]
+################
+
+
+######
+features
+typing effect + image @prevflask apps 
+understand js algo for filter regex etc
+###################
+
+schema for pst*r & conda eg
+
+pst*r
+name = ?
+#tags||referencefile.txt 
+complexion=[1_black_/2_brown_/3_godlen_/4_white_/5/6_pale_/7_paleasfuck_]
+legs=[0_short_/1_tall_/]
+upperbody=[]
+
+
+search quer* 
+legs[0] complexion[1]
+################
+#conda
+
+envSetupSteps=?
+#tags
+envsetup
+techn[linux/python/etc]
+
+
+search quer*
+envsetup techn[python]
+
+
+
+
+schema for pst*r & conda eg
+
+pst*r
+name = ?
+#tags||referencefile.txt 
+complexion=[1_black_/2_brown_/3_godlen_/4_white_/5/6_pale_/7_paleasfuck_]
+legs=[0_short_/1_tall_/]
+upperbody=[]
+
+
+search quer* 
+legs[0] complexion[1]
+################
+#conda
+
+envSetupSteps=?
+#tags
+envsetup
+techn[linux/python/etc]
+
+
+search quer*
+envsetup techn[python]
+
+
+
+######
+features
+typing effect + image @prevflask apps 
+understand js algo for filter regex etc
